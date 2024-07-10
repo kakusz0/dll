@@ -1,5 +1,4 @@
-
- <?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
@@ -9,6 +8,10 @@
 		<dict>
 			<key>PciRoot(0x0)/Pci(0x2,0x0)</key>
 			<dict>
+				<key>AAPL,GfxYTile</key>
+				<data>
+				AQAAAA==
+				</data>
 				<key>AAPL,ig-platform-id</key>
 				<data>
 				CQClPg==
@@ -21,7 +24,20 @@
 				</data>
 				<key>device_type</key>
 				<string>VGA compatible controller</string>
-				<key>enable-hdmi20</key>
+				<key>disable-external-gpu</key>
+				<data>
+				AQAAAA==
+				</data>
+				<key>enable-hdmi-dividers-fix</key>
+				<data>
+				AQAAAA==
+				</data>
+				<key>framebuffer-con0-alldata</key>
+				<data>
+				AAASAAIAAACYAAAAAQUSAAAIAADHAQAAAgQSAAAIAADH
+				AQAA
+				</data>
+				<key>framebuffer-con0-enable</key>
 				<data>
 				AQAAAA==
 				</data>
@@ -41,12 +57,15 @@
 				<data>
 				AAAAgA==
 				</data>
+				<key>hda-gfx</key>
+				<string>onboard-1</string>
 				<key>model</key>
 				<string>Intel ???</string>
 			</dict>
 		</dict>
 	</dict>
- 
+</dict>
+</plist>
 
 
 
